@@ -11,9 +11,9 @@ OpenSCAD design of a hanging spool holder, designed with simplicity, low frictio
  
  
 --Required Hardware
-- Rods that came with MMUS2 trays
-- Bearings that came with MMUS2 trays
-- Zipties that came with printer or MMU2S
+- 1x Rod that came with MMU2S trays
+- 2x Bearings that came with MMU2S trays 
+- 2-4x Zipties that came with printer or MMU2S
 - 0.8mm nozzle recommended
 
 --How to get started if new to OpenSCAD
