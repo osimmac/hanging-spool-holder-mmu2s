@@ -16,6 +16,7 @@ OpenSCAD design of a hanging spool holder, designed with simplicity, low frictio
 - 2-4x Zipties that came with printer or MMU2S
 - 0.8mm nozzle recommended
 
+
 --How to get started if new to OpenSCAD
 1. Download and install from here (os specific instructions are there): https://www.openscad.org/downloads.html
 2. launch openscad and start messing around with the examples, they can be accessed from the launcher or "file" at the top of the application.  most of what i learned is from there. the examples are easy to modify and expand upon.
@@ -30,7 +31,10 @@ OpenSCAD design of a hanging spool holder, designed with simplicity, low frictio
 4. Render (F6)
 5. if it looks good, Export to STL (F7)!
 
+
 --How to Print
+(print test piece first)
+
 Highly Recommend nozzle larger than 0.4mm, especially if using MMU2S. Less layer changes, less filiament swaps, smaller purge blocks with thicker layer heights, Faster Prints. they are cheap and worth it. This spool holder can be printed in under 3 hours while still making a strong print. I dont have settings for anything other than 0.8mm, you are welcome to try and post results as an issue or something.
 
 (*used prusa slicer*)
