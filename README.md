@@ -6,7 +6,6 @@ OpenSCAD design of a hanging spool holder, designed with simplicity, low frictio
  - Reuses MMU2S Spool holder hardware, create up to 10 hanging spool holders!
  - High tech Self Stablizing roller, see this video for an explanation of how it works! (it was also the inspiration for the roller design) https://www.youtube.com/watch?v=Ku8BOBwD4hc
  - low rolling resistance, perfect for flexible filaments in the MMU2S! (ive had success printing 85A hardness filaments!)
- - quiet operation
  
  
  
