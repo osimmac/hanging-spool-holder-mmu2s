@@ -1,3 +1,16 @@
+  //  This program is free software: you can redistribute it and/or modify
+  //  it under the terms of the GNU General Public License as published by
+ ///   the Free Software Foundation, either version 3 of the License, or
+ //   (at your option) any later version.
+//
+ //   This program is distributed in the hope that it will be useful,
+  //  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  //  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ //   GNU General Public License for more details.
+
+ //   You should have received a copy of the GNU General Public License
+ //   along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 //FILAMENT SPOOL HOLDER DESIGNED FOR USE WITH MMU2S HARDWARE
 //Designed by osimmac
 
@@ -19,7 +32,7 @@ $fa = 1;    // Don't generate larger angles than 5 degrees
 //MAIN ARM VARIABLES
 //Rod Hole size
   //changing the value below will change the size of the hole the rod is inserted to. try changing the size in 0.05 or 0.1mm increments. 
- holediameter = 8.16;
+ holediameter = 8.2;
  
  //Rod peg size
   //changes size of peg that goes into rod
@@ -28,7 +41,7 @@ $fa = 1;    // Don't generate larger angles than 5 degrees
   
   //ROLLER VARIABLES
  //changes hole diameter for bearing
-bearingdiameter = 22.05;
+bearingdiameter = 22.08;
 
 
   //CAP VARIABLES
@@ -98,9 +111,9 @@ module spoolroller2(){
 //deprecated flat roller
 module spoolroller(){
     difference(){
-    color("Blue")cylinder(h=106,r=24.4/2);
+    color("Blue")cylinder(h=106,r=bearingdiameter+2.4/2);
     translate([0,0,-.05])color("Red")
-                            cylinder (h=106.1,r = 22.05/2);
+                            cylinder (h=106.1,r = bearingdiameter/2);
 }
 }   
 
