@@ -18,7 +18,7 @@ OpenSCAD design of a hanging spool holder, designed with simplicity, low frictio
 
 --How to get started if new to OpenSCAD
 1. Download and install from here (os specific instructions are there): https://www.openscad.org/downloads.html
-2. launch openscad and start messing around with the examples, they can be accessed from the launcher or "file" at the top of the application.  most of what i learned if from there. the examples are easy to modify and expand upon.
+2. launch openscad and start messing around with the examples, they can be accessed from the launcher or "file" at the top of the application.  most of what i learned is from there. the examples are easy to modify and expand upon.
 3. Check out the Basics > CSG-Modules.scad example, this spool holder uses modules. (though it could use them better)
 3. Useful cheatsheet once you understand how the commands work: https://www.openscad.org/cheatsheet/index.html
 
